@@ -97,10 +97,10 @@ def TurnBot():
                 Move("22","O")
             elif backField[2][0] == 0 and backField[2][1] == 0:
                 Move("02","O")
-            elif backField[0][2] == 0 and backField[2][1] == 0:
+            elif backField[0][2] == 0 and backField[0][1] == 0:
                 Move("20", "O")
             elif backField[0][0] == 0:
-                Move ("00","O") 
+                Move ("00","O")
 def Horizontallcheck (PlayerInt):
     ycounter = 0
     for i in backField:
