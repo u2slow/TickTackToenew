@@ -1,3 +1,5 @@
+import time
+
 frontField = [[" "," "," "],[" "," "," "],[" "," "," "]]
 backField = [[0,0,0],[0,0,0],[0,0,0]]
 fieldAbc = ["A", "B", "C"]
@@ -198,3 +200,4 @@ def BotWinCheck():
             if DiagonalCheck(7) == False:
                 return True
 GameX()
+time.sleep(5)
